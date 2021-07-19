@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.sectionStandard{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundSection1{
+    background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url(../assets/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.backgroundSection2{
+    background-color: rgb(95, 6, 6);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cardContainer{
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 25px;
+    width: 200px;
+}
+
+form{
+    display: grid;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    text-align: left;
+    border-radius: 0;
+    border-style: hidden;
+    background-color: rgba(139, 0, 0, 0.2);
+}
+
+label{
+    color: rgba(139, 0, 0);
+    font-weight: bold;
+    padding: 5px
+}
+
+#submitButton{
+    width: 50%;
+    height: 30px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 0;
+    border-style: hidden;
+    background-color: rgba(139, 0, 0, 0.4);
+    color: rgb(87, 1, 1)
+}
+
+.section1{
+   flex-direction: row;
+}
+
+h1{
+    font-size: 50px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+h3{
+    font-size: 25px;
+    color: rgba(139, 0, 0);
+    padding: 20px 0px;
+    text-align: center;
+    align-items: center;
+};
+
+h2{
+    font-size: 50px;
+    padding: 30px 0;
+    text-align: center;
+    align-items: center;
+}
+
+  
+#timer {
+    font-size: 3em;
+    font-weight: 100;
+    color: white;
+    text-shadow: 0 0 20px rgba(139, 0, 0);
+}
+   
+#timer div {
+    display: inline-block;
+    min-width: 90px;
+    padding: 20px 0
+}
+
+#timer div span {
+    color: rgba(139, 0, 0);
+    display: block;
+    font-size: 0.35em;
+    font-weight: 400;
+}
+
+.promocao{
+    text-align: center;
+    align-items: center;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+}
+
+.callToAction{
+    padding: 50px;
+}
+
+#callToAction{
+    font-size: 30px;
+    color: #ffffff;
+    padding: 20 px;
+    text-align: center;
+    align-items: center;
+}
+
+#message{
+    text-align: center;
+}
+
+h4{
+    font-size: 25px;
+    color: #dba3a3;
+    padding: 10 px;
+    text-align: center;
+    align-items: center;
+}
+
+footer{
+    height: 120px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+}
